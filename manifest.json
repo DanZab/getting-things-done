@@ -1,0 +1,11 @@
+{
+  "id": "gtd",
+  "name": "Getting Things Done",
+  "version": "0.0.1",
+  "minAppVersion": "0.15.0",
+  "description": "A personal productivity plugin for Obsidian based on the Getting Things Done system.",
+  "author": "Dan Zabinski",
+  "authorUrl": "https://danzabinski.com",
+  "fundingUrl": "https://danzabinski.com",
+  "isDesktopOnly": false
+}
