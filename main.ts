@@ -1,5 +1,5 @@
 import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';
-import { SettingTab } from './settings';
+import { Settings } from './settings';
 
 interface PluginSettings {
   projectDirectory: string;
@@ -19,9 +19,9 @@ export default class GTD extends Plugin {
 	async onload() {
 		await this.loadSettings();
 
-		this.addSettingTab(new SettingTab(this.app, this));
+		// this.addSettingTab(new SettingTab(this.app, this));
 
-		this.addRibbonIcon('dice', 'Greet', () => {
+		this.addRibbonIcon('rat', 'Greet', () => {
 			new Notice('Hello, world!');
 		})
 		
